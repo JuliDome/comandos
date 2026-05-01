@@ -50,12 +50,12 @@ schtasks /delete /tn "Nombre de tarea" /f
 ## Terminal de Windows PowerShell
 ### Programas instalados
 ```powershell
-# Mostrar lista de los programas instalados:
+# Mostrar lista de los programas instalados con sus IDs locales:
 winget list
 ```
 ### Búsqueda
 ```powershell
-# Buscar un programa en el catálogo de Microsoft por su nombre:
+# Buscar un programa en el catálogo de Microsoft por su nombre con sus IDs globales:
 winget search "Nombre del programa"
 ```
 ### Instalación
